@@ -19,4 +19,4 @@ elif choice==3:
 print("Converter ended with the following output:")
 print(data)
 print("Thank You!!!")
-input()
+input("Press 'Enter' to exit")
