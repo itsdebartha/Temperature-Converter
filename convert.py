@@ -15,6 +15,9 @@ elif choice==2:
 elif choice==3:
     kel=float(input("Enter temperature: "))
     data=pd.DataFrame([[kel-273.15,(kel-273.15)*(9/5)+32,kel]],columns=list(["Celsius","Fahrenheit","Kelvin"]))
+else:
+    print("Wrong output")
+    exit()
 
 print("Converter ended with the following output:")
 print(data)
